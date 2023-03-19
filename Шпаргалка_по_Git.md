@@ -1,4 +1,4 @@
-<h1>Шпаргалка по теме Git</h1>
+<h1>Шпаргалка по Git</h1>
 <table width="100%" border="1">
     <thead>
         <caption>
