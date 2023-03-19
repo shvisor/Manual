@@ -6,4 +6,4 @@
 
 ## Модуль 4. Автоматизированное тестирование
 
-* [Настройка CI](Setting_CI_GitHub_Actions_for_gradle_java.md)
+* [Настройка CI](Настройка_CI_GitHub_Actions_для_gradle_java.md)
