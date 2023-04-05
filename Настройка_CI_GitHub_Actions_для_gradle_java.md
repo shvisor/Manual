@@ -43,7 +43,7 @@ jobs:
       run:  java -jar ./artifacts/app-order.jar & sleep 10
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
-    - name: Build wich Gradle
+    - name: Build with Gradle
       run: ./gradlew test --info
 ```
 
