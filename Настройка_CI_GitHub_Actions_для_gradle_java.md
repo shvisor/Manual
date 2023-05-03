@@ -40,7 +40,7 @@ jobs:
         java-version: '11'
         distribution: 'adopt'
     - name: Run SUT
-      run:  java -jar ./artifacts/app-order.jar & sleep 10
+      run:  java -jar ./artifacts/app-order.jar & sleep 10   # здесь указываете свой джарник
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
     - name: Build with Gradle
