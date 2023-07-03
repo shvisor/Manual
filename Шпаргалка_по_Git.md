@@ -151,7 +151,7 @@
 <table width="100%" border="1">
     <thead>
         <caption>
-            <h3>Работа с ветками</h3>
+            <h3>СРабота с ветками</h3>
         </caption>
     </thead>
     <tbody>
