@@ -34,17 +34,12 @@ jobs:
       with:
         java-version: '11'
         distribution: 'temurin'
-    - name: Build with Gradle
-      uses: gradle/gradle-build-action@67421db6bd0bf253fb4bd25b31ebb98943c375e1
-      with:
-        java-version: '11'
-        distribution: 'adopt'
     - name: Run SUT
-      run:  java -jar ./artifacts/app-order.jar & sleep 10   # здесь указываете свой джарник
+      run:  java -jar ./artifacts/app-order.jar &   # здесь указываете свой джарник
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
     - name: Build with Gradle
-      run: ./gradlew test --info
+      run: ./gradlew test --info -Dselenide.headless=true
 ```
 
 Часть `-jar ./artifacts/app-mbank.jar` может меняться, но первая часть для вас во всех ДЗ при запуске на вашем ПК будет именно такой.
