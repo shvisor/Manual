@@ -19,4 +19,5 @@
 
 ## Модуль 4. Автоматизированное тестирование
 * [Настройка CI в GitHub Actions](Настройка_CI_GitHub_Actions_для_gradle_java.md)
+* [Selenide](Selenide.md)
 * [Падают тесты из-за драйвера `WARNING: Invalid Status code=403 text=Forbidden`](Падают_тесты_из-за_драйвера.md)
