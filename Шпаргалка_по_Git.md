@@ -33,7 +33,7 @@
         </tr>
         <tr>
             <td>Удаление из индекса</td>
-            <td><code>git rm -r --cached *</code></td>
+            <td><code>git rm -r --cached *</code> / <code>git rm --cached *</code></td>
             <td>Удаляет из индекса все файлы/папки</td>
         </tr>
         <tr>
